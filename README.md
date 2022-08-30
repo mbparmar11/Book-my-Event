@@ -24,4 +24,4 @@
 # Run Configurations
 >Only one main change needs to be made - inorder for the emails to be sent, you'd need provide the email credentials on the config.py file. This can be best done using environment variables for security reasons
 
->The email address would then need to be updated on the utils.py file under both the user and event folder
+>Most of the email providers have blocked 3rd part access to emails, so directly inputting your email credentials might not work. In this case you would need to use an "app password" for your email and that should solve it. 
