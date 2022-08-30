@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        h1 {text-align: center;
+        font-weight: bold;}
+        h2   {text-align: left;}
+    
+        </style>
+</head>
+<body>
+    
+   <h1>Hey {{name}}, thanks for confirming</h1>
+   <h2>Event: {{eventName}}</h2>
+   <h2>Organizer: {{organizerFirstName}} {{organizerSurName}}</h2>
+   <h2>Event Date: {{ date.strftime('%d-%b-%Y') }}</h2>
+
+
+
+   
+</body>
+</html>
