@@ -1,0 +1,13 @@
+used bootstrap library 
+
+used css
+used wt form library forms
+
+sqlachemy
+
+password hashig
+flask blueprint
+
+cahnge the function where it takes to desidred page after login_required
+
+blue prints
