@@ -1,4 +1,4 @@
-# **Book My Seminar**
+# **Book My Event**
 >Part of my summer 2022 project. 
 >This application was built using Python, Flask, HTML and BootStrap
 
